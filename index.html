@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Nómina Digital</title>
+    <link rel="Shortcut Icon" type="image/png" href="frontend/imgs/icons/nomDigital.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Nomina Digital" content="DeSoft Ltda">
+    <meta name="Author" content="Lizeth Rios Epalza">
+    <meta name="Contributors" content="Lorena">
+
+    <link rel="stylesheet" href="frontend/dist/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="frontend/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/dist/css/style.css">
+    <link rel="stylesheet" href="frontend/dist/css/login.css"/>
+    <script src="frontend/dist/js/sweet-alert.min.js"></script>
+</head>
+<body class="full-cover-background" style="background-image:url(frontend/imgs/img/fondoLogin.jpg);">
+    <div class="form-container">
+        <p><h1 class="text-center all-tittles" style="margin-bottom: 30px;">NÓMINA DIGITAL</h1></p>
+          <p class="text-center" style="margin-top: 17px;">
+             <i class="zmdi zmdi-account-circle zmdi-hc-5x"></i>
+         </p>
+       <form id="login-form" action="backend/index.php" method="post">
+            <!-- Llamado a el router para llamar al metodo -->
+            <input type="hidden" name="solicitud" value="login">
+            <div class="group-material-login">
+              <input name="user" type="text" class="material-login-control" required="" maxlength="15">
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label><i class="zmdi zmdi-account"></i> &nbsp; Usuario</label>
+            </div><br>
+            <div class="group-material-login">
+              <input name="pass" type="password" class="material-login-control" required="" maxlength="30">
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label><i class="zmdi zmdi-lock"></i> &nbsp; Password</label>
+            </div>
+            <div class="group-material">
+            </div>
+            <button class="btn-login" type="submit">INGRESAR</button>
+        </form>
+      </div>
+
+      <div class="pie-container">
+        <footer>
+          <p>DeSoft Ltda &copy; Todos los derechos reservados.</p>
+        </footer>
+      </div>
+</body>
+</html>
