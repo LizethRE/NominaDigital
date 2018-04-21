@@ -1,3 +1,5 @@
+# Sistema de Liquidacion de Nomina
+
 El software debe permite sistematizar el proceso de liquidacion de nomina, para llevar a cabo este proceso debe permite el registro de una empresa (NIT, nombre, direccion, telefono, email) del cual se encarga DeSoft empresa prestadora del servicio.
 El administrador por parte de la empresa puede visualizar la informacion de la empresa,actualizar datos basicos de la empresa, registrar empleado, cambiar estado del empleado ((Inactivo: cuando ya no hace parte de la organizacion) (Activo: activo o se reintegra a la empresa)), listar y buscar un empleado.
 Cada empleado cuenta con unos datos basicos (nombre completo, numero de identificacion, direccion de la residencia, telefono, correo electronico), al empleado debe permitir actualizar la informacion basica, gestionar recibo de pago y visualizar historial de pagos.
